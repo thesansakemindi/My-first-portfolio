@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #204d4fe6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+ }
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #204d4fe6;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        padding: 20px;
+    }
+}
+
+footer{
+    text-align: center;
+    color: #204d4fe6;  
+}
+body{
+    background-color:black;
+    color: white;
+
+}
+
+.img1 {
+    width: 350px;
+  transition: 0.3s;
+}
+
+.img1:hover {
+  transform: scale(1.1);
+}
+.img2 {
+     width: 450px;
+  transition: 0.3s;
+}
+.img2:hover {
+  transform: scale(1.1);
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.info{
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+}
+.skill-card {
+    display: inline-block;
+    background:#b9c4c5e6;
+    color: black;
+}
+.skill-card{
+  transition: 0.3s;
+}
+.skill-card:hover{
+    transform: scale(1.1);
+}
+.skill-card2 {
+    display: inline-block;
+    background:#b9c4c5e6;
+    color: black;
+}
+.skill-card2{
+  transition: 0.3s;
+}
+.skill-card2:hover{
+    transform: scale(1.1);
+}
+.animation{
+    text-align: center;
+    padding: 20px;
+}
+/* Marquee */
+.marquee-wrap {
+  overflow: hidden; background: var(--amber);
+  padding: 1rem 0; margin: 2rem 0;
+}
+.marquee-inner {
+  display: flex; gap: 3rem;
+  animation: marquee 18s linear infinite;
+  white-space: nowrap; width: max-content;
+}
+@keyframes marquee { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+.marquee-inner span {
+  font-family: var(--ff-mono);
+  font-size: .75rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--ink);
+  font-weight: 500;
+}
+footer{
+    color:white ;
+}
+svg {
+  color: #204d4fe6;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+svg:hover {
+  color: whitesmoke;
+  transform: scale(1.2);
+}
+#responseMsg {
+    text-align: center;
+
+}
+html {
+  scroll-behavior: smooth;
+}
